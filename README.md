@@ -41,3 +41,16 @@ git merge ANotherBranch
 
 # git ignore to ignore files and ass that file name in git ignore
 touch .gitignore
+
+# remote actions
+git remote -v
+git remote add origin <REMOTE_URL>
+
+#push master branch
+git branch -M master
+git push -u origin
+
+#cloning git clone url
+git clone URL
+
+
