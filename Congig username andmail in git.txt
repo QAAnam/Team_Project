@@ -1,0 +1,20 @@
+Microsoft Windows [Version 10.0.19045.3803]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Koyal Vishwas\eclipse-workspace>git config -get user.name
+error: did you mean `--get` (with two dashes)?
+
+C:\Users\Koyal Vishwas\eclipse-workspace>git config --get user.name
+Amit Mitra
+
+C:\Users\Koyal Vishwas\eclipse-workspace>git config --global user.name "Piyush Kumar"
+
+C:\Users\Koyal Vishwas\eclipse-workspace>git config --get user.name
+Piyush Kumar
+
+C:\Users\Koyal Vishwas\eclipse-workspace>git config --global user.email "piyushkumar721@gmail.com
+
+C:\Users\Koyal Vishwas\eclipse-workspace>git config --get user.email
+piyushkumar721@gmail.com
+
+C:\Users\Koyal Vishwas\eclipse-workspace>
